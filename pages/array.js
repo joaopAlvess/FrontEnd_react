@@ -18,8 +18,8 @@ const array = () => {
     <>
     <Pagina titulo="Array">
       <ol>
-        {carros.map(item=> (
-          <p>{item}</p>
+         {carros.map(item=> (
+            <li>{item}</li>
         ))}
       </ol>
           <h1>Array</h1>
