@@ -13,7 +13,7 @@ const Pagina = (props) => {
             <h1>{props.titulo}</h1>
         </div>
         <Container>
-        {props.children}
+          {props.children}
         </Container>
         <Rodape />
     </>

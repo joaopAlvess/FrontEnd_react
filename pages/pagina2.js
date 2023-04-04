@@ -9,9 +9,7 @@ const pagina2 = () => {
   return (
     <>
       <Pagina titulo="Página 2">
-        <Container>
-          <h1 className="">Pagina 2</h1>  
-        </Container>
+        <h1>Pagina 2</h1>
       </Pagina>
     </>
   )

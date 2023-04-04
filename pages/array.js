@@ -1,14 +1,28 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
-import Cabecalho from '../components/Cabecalho'
 import Pagina from '../components/Pagina'
-import Rodape from '../components/Rodape'
 
+//Array
+const carros = ["Opala", "Classic", "Ka", "Omega", "Fuscão"]
+
+/*
+// Objeto
+const pessoa1 = {
+  nome: "joao",
+  idade: 20,
+  telefone: "(61)99999-9999",
+  endereco: "ABC"
+}
+*/
 const array = () => {
   return (
     <>
     <Pagina titulo="Array">
-        <h1>Array</h1>
+      <ol>
+        {carros.map(item=> (
+          <p>{item}</p>
+        ))}
+      </ol>
+          <h1>Array</h1>
     </Pagina>
     
     </>
