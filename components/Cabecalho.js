@@ -7,11 +7,12 @@ const Cabecalho = () => {
     <>
      <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">Sistema Acadêmico</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#home">Pagina 1</Nav.Link>
+            <Nav.Link href="#features">Página 2</Nav.Link>
+            <Nav.Link href="#pricing">Array</Nav.Link>
+            <Nav.Link href="#pricing">Carros</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
